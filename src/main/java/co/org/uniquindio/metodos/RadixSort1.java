@@ -50,7 +50,7 @@ public class RadixSort1 {
 
     // The main function to that sorts arr[] of
     // size n using Radix Sort
-    static void radixsort(int arr[], int n)
+    public static void sort(int arr[], int n)
     {
         // Find the maximum number to know number of digits
         int m = getMax(arr, n);

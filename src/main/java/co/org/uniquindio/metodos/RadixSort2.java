@@ -2,7 +2,7 @@ package co.org.uniquindio.metodos;
 
 public class RadixSort2 {
 
-    private ColaEnlazada[] Q = {
+    private static ColaEnlazada[] Q = {
             new ColaEnlazada(),
             new ColaEnlazada(),
             new ColaEnlazada(),
@@ -14,7 +14,7 @@ public class RadixSort2 {
             new ColaEnlazada(),
             new ColaEnlazada()};
 
-    void sort(int[] a, int numeroDigitos) {
+    static void sort(int[] a, int numeroDigitos) {
         int posArreglo;
         for (int i = 1; i< numeroDigitos; i++){
             posArreglo = 0;
@@ -32,7 +32,7 @@ public class RadixSort2 {
         }
     }
 
-    void sort(int[] a) {
+    public static void sort(int[] a) {
         int max = 0, maxIndex = 0;
         for (int i = 0; i < a.length; i++) {
             if (max < a[i]) {
@@ -46,7 +46,8 @@ public class RadixSort2 {
         int numeroDigitos = cadena.length();
         sort(a, numeroDigitos);
     }
-    int obtenerRadical(int numero,int radical){
+
+    static int obtenerRadical(int numero,int radical){
         return (int)
                 (numero/Math.pow(10, radical-1)) % 10;
     }
