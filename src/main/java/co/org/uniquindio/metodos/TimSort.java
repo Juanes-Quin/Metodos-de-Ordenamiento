@@ -1,5 +1,8 @@
 package co.org.uniquindio.metodos;
 
+/* Algoritmo basado de https://www.geeksforgeeks.org/timsort/?ref=header_search
+* This code has been contributed by 29AjayKumar
+*/
 public class TimSort {
 
     private static final int RUN = 32; // tamaño óptimo para subarrays

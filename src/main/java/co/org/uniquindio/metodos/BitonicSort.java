@@ -1,5 +1,9 @@
 package co.org.uniquindio.metodos;
 
+/*
+* Algoritmo basado de https://www.geeksforgeeks.org/bitonic-sort/?ref=header_search
+ */
+
 public class BitonicSort {
 
     // Método para intercambiar elementos

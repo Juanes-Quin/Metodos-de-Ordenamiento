@@ -1,5 +1,10 @@
 package co.org.uniquindio.metodos;
 
+/*
+ * Algoritmo basado de https://www.geeksforgeeks.org/comb-sort/?ref=header_search
+ * This code is contributed by Rajat Mishra
+ */
+
 public class CombSort {
 
     // Función para encontrar el nuevo gap entre los elementos

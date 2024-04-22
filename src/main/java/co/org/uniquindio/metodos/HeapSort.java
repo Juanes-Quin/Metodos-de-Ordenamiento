@@ -1,5 +1,9 @@
 package co.org.uniquindio.metodos;
 
+/*
+* Algoritmo basado de https://www.geeksforgeeks.org/heap-sort/?ref=shm
+ */
+
 public class HeapSort {
 
     public static void sort(int[] arr) {

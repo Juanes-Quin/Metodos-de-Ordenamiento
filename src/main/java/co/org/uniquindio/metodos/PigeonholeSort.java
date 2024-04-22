@@ -3,6 +3,11 @@ package co.org.uniquindio.metodos;
 import java.util.ArrayList;
 import java.util.Collections;
 
+/*
+* Algoritmo basado de https://www.geeksforgeeks.org/java-program-for-pigeonhole-sort/?ref=header_search
+* Code contributed by Mohit Gupta_OMG
+ */
+
 public class PigeonholeSort {
 
     public static void sort(int[] arr) {

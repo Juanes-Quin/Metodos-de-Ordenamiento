@@ -2,6 +2,10 @@ package co.org.uniquindio.metodos;
 
 import java.util.ArrayList;
 
+/*
+* Algoritmo basado de https://www.geeksforgeeks.org/tree-sort/?ref=header_search
+ */
+
 class TreeNode {
     int value;
     TreeNode left, right;

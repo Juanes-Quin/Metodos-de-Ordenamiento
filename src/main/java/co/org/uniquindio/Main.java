@@ -13,7 +13,7 @@ import java.util.*;
 
 public class Main {
 
-    private static final int ARRAY_SIZE = 1500000;  // Ajusta este tamaño según lo que desees probar
+    private static final int ARRAY_SIZE = 2000000;  // Ajusta este tamaño según lo que desees probar
     private static final Random random = new Random();
 
     public static void main(String[] args) {
@@ -39,13 +39,13 @@ public class Main {
         }));
 
         // Prueba PigeonholeSort
-        //executionTimes.put("PigeonholeSort", testSort(Arrays.copyOf(originalArray, originalArray.length), PigeonholeSort::sort));
+        executionTimes.put("PigeonholeSort", testSort(Arrays.copyOf(originalArray, originalArray.length), PigeonholeSort::sort));
 
         // Prueba BitonicSort
         executionTimes.put("BitonicSort", testSort(Arrays.copyOf(originalArray, originalArray.length), array -> BitonicSort.sort(array, true)));
 
         // Prueba GnomeSort
-        //executionTimes.put("GnomeSort", testSort(Arrays.copyOf(originalArray, originalArray.length), GnomeSort::sort));
+        executionTimes.put("GnomeSort", testSort(Arrays.copyOf(originalArray, originalArray.length), GnomeSort::sort));
 
         //Visualizacion de los resultados
         displayChart(executionTimes);

@@ -1,5 +1,10 @@
 package co.org.uniquindio.metodos;
 
+/*
+* Algoritmo basado de https://www.geeksforgeeks.org/gnome-sort-a-stupid-one/?ref=header_search
+* Code Contributed by Mohit Gupta_OMG
+ */
+
 public class GnomeSort {
 
     public static void sort(int[] arr) {
