@@ -13,7 +13,7 @@ import java.util.*;
 
 public class Main {
 
-    private static final int ARRAY_SIZE = 2000000;  // Ajusta este tamaño según lo que desees probar
+    private static final int ARRAY_SIZE = 1500000;  // Ajusta este tamaño según lo que desees probar
     private static final Random random = new Random();
 
     public static void main(String[] args) {
@@ -24,25 +24,25 @@ public class Main {
 
         //Pruebas y almacenamiento de reusltados
         // Prueba TimSort
-        //executionTimes.put("TimSort", testSort(Arrays.copyOf(originalArray, originalArray.length), TimSort::sort));
+        executionTimes.put("TimSort", testSort(Arrays.copyOf(originalArray, originalArray.length), TimSort::sort));
 
         // Prueba CombSort
-        //executionTimes.put("CombSort", testSort(Arrays.copyOf(originalArray, originalArray.length), CombSort::sort));
+        executionTimes.put("CombSort", testSort(Arrays.copyOf(originalArray, originalArray.length), CombSort::sort));
 
         // Prueba HeapSort
-        //executionTimes.put("HeapSort", testSort(Arrays.copyOf(originalArray, originalArray.length), HeapSort::sort));
+        executionTimes.put("HeapSort", testSort(Arrays.copyOf(originalArray, originalArray.length), HeapSort::sort));
 
         // Prueba TreeSort
-//        executionTimes.put("TreeSort", testSort(Arrays.copyOf(originalArray, originalArray.length), array -> {
-//            TreeSort treeSort = new TreeSort();
-//            treeSort.treeSort(array);
-//        }));
+        executionTimes.put("TreeSort", testSort(Arrays.copyOf(originalArray, originalArray.length), array -> {
+            TreeSort treeSort = new TreeSort();
+            treeSort.treeSort(array);
+        }));
 
         // Prueba PigeonholeSort
         executionTimes.put("PigeonholeSort", testSort(Arrays.copyOf(originalArray, originalArray.length), PigeonholeSort::sort));
 
         // Prueba BitonicSort
-        //executionTimes.put("BitonicSort", testSort(Arrays.copyOf(originalArray, originalArray.length), array -> BitonicSort.sort(array, true)));
+        executionTimes.put("BitonicSort", testSort(Arrays.copyOf(originalArray, originalArray.length), array -> BitonicSort.sort(array, true)));
 
         // Prueba GnomeSort
         executionTimes.put("GnomeSort", testSort(Arrays.copyOf(originalArray, originalArray.length), GnomeSort::sort));
