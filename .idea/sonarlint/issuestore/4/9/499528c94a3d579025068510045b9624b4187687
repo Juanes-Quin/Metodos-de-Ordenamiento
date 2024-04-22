@@ -1,0 +1,20 @@
+
+{
+java:S1118":Add a private constructor to hide the implicit public one.(êÌÍÛùÿÿÿÿJ$944fce4f-cdfe-4d09-944a-f61230fa1fe2
+k
+java:S1197"*Move the array designators [] to the type.(À¹ãÄúÿÿÿÿJ$d1384d5c-a746-4ce4-91d3-68ce3b94ecd5
+k
+java:S1197"*Move the array designators [] to the type.(ŽŠµ¼ûÿÿÿÿJ$651ab155-7ade-4624-96c7-3769b205e5f9
+f
+java:S1197"*Move the array designators [] to the type.(¤á¿âJ$3b75b040-0c8d-4d4d-8cf4-9d442f8f5289
+e
+java:S1197"*Move the array designators [] to the type.(žøòJ$8ba6a5a3-a864-45cc-95c6-5df430124ce6
+•
+java:S30120"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(´°©ÇJ$26c2c830-8b11-4c87-9dad-6192f60614f4
+k
+java:S11975"*Move the array designators [] to the type.(Ÿüñ¹úÿÿÿÿJ$5fd27801-ced5-4492-9990-db47c3b2253e
+f
+java:S1197B"*Move the array designators [] to the type.(ÊÖ‰†J$e45a83c8-4e8f-49e3-964a-d4c8e3e2f673
+f	java:S106E"+Replace this use of System.out by a logger.(º¼É°J$d08b445a-971d-41b6-a3fc-cc40cec9b188
+_
+java:S1128"$Remove this unused import 'java.io'.(¬›ãDJ$c59f57ca-cde0-4cac-a51a-8e817ce80fe3

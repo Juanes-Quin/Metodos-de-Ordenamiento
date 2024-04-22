@@ -1,0 +1,13 @@
+
+†
+java:S21844"ECast one of the operands of this subtraction operation to a "double".(ôÙ£øûÿÿÿÿJ$f8b21099-93e7-4c30-a2d5-365b26d51dae
+
+java:S3008"LRename this field "Q" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÔê8´»»íï1J$c9a558e0-d5d2-4a71-9daf-1d5189db7749
+}
+java:S1118":Add a private constructor to hide the implicit public one.(Ç½à›8¸»»íï1J$f23280a6-e384-47ac-bd57-37bba164b93b
+}
+java:S1854("<Remove this useless assignment to local variable "maxIndex".(–³²óıÿÿÿÿJ$f420ba9c-eaab-49f5-9af1-0edbcf1c9a4c
+b
+java:S1659$"&Declare "maxIndex" on a separate line.(ÒéJ$ec3ae763-c980-4c59-85ed-6075989d2508
+i
+java:S1481$"-Remove this unused "maxIndex" local variable.(ÒéJ$40d7f23b-bf36-4dcc-8091-ddb29620a1d1
